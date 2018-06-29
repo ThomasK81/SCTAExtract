@@ -117,7 +117,6 @@ func main() {
 	}
 	fmt.Println(len(passages), "passages extracted")
 	fmt.Println("writing to file...")
-	fmt.Println("")
 
 	f, err := os.Create(outputFile)
 	check(err)
@@ -166,9 +165,10 @@ func main() {
 		arabicwords = arabicwords + len(arabicword)
 
 		percent := 100 * (i + 1) / (len(passages) - 1)
-		fmt.Print("\rsub references fetched: ", percent, "%")
+		fmt.Print("\rlines written: ", percent, "%")
 	}
-	fmt.Println("wrote", latinwords, "Latin words from", len(passages), "passages to scta.csv")
+	fmt.Println("")
+	fmt.Println("wrote", latinwords, "Latin words from", len(passages), "passages to", outputFile)
 	fmt.Println("also", greekwords, "Greek words")
 	fmt.Println("wrote", arabicwords, "Arabic words")
 }
