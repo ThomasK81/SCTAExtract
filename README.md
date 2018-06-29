@@ -1,4 +1,5 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/ThomasK81/SCTAExtract)](https://goreportcard.com/report/github.com/ThomasK81/SCTAExtract)
+[![DOI](https://zenodo.org/badge/138982644.svg)](https://zenodo.org/badge/latestdoi/138982644)
 
 # SCTAExtract
 Extracting SCTA texts via the SCTA CSV API
