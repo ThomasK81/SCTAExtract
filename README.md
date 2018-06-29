@@ -1,7 +1,7 @@
 # SCTAExtract
 Extracting SCTA texts via the SCTA CSV API
 
-# USAGE OSX (and some Linux distris)
+# USAGE OSX (and some Linux distros)
 
 1. Clone this repository.
 2. Open a terminal in the folder of the repository and type: `./SCTAExtract [output-filename] [optionally: endpoint]` (you might have to `chmod +x ./SCTAExtraxt` before you can use the executable)
