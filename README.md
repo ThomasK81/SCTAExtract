@@ -1,3 +1,5 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/ThomasK81/SCTAExtract)](https://goreportcard.com/report/github.com/ThomasK81/SCTAExtract)
+
 # SCTAExtract
 Extracting SCTA texts via the SCTA CSV API
 
